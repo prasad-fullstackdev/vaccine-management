@@ -1,0 +1,74 @@
+{
+  "menu": [
+    {
+      "route": "dashboard",
+      "name": "dashboard",
+      "type": "link",
+      "icon": "dashboard"
+    },
+    {
+      "route": "vaccine",
+      "name": "vaccine",
+      "type": "sub",
+      "icon": "assignment",
+      "children": [
+        {
+          "route": "manage-stock",
+          "name": "manage-stock",
+          "type": "link"
+        },
+        {
+          "route": "manage-vaccination-detail",
+          "name": "manage-vaccination-detail",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "route": "manage",
+      "name": "manage",
+      "type": "sub",
+      "icon": "security",
+      "children": [
+        {
+          "route": "users",
+          "name": "users",
+          "type": "link"
+        },
+        {
+          "route": "centers",
+          "name": "centers",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "route": "reports",
+      "name": "reports",
+      "type": "sub",
+      "icon": "description",
+      "children": [
+        {
+          "route": "vials-report",
+          "name": "vials-report",
+          "type": "link"
+        },
+        {
+          "route": "vaccination-report",
+          "name": "vaccination-report",
+          "type": "link"
+        },
+        {
+          "route": "projection-report",
+          "name": "projection-report",
+          "type": "link"
+        },
+        {
+          "route": "vaccine-center-report",
+          "name": "vaccine-center-report",
+          "type": "link"
+        }
+      ]
+    }
+  ]
+}
