@@ -8,9 +8,9 @@ if (window.location.hostname == "localhost") {
     }
 } else {
     appConfig = {
-        apiUrl: "https://a926590cdf1b.ngrok.io/api/",
-        authUrl: "https://a926590cdf1b.ngrok.io/api/Auth/",
-        hubUrl: "https://a926590cdf1b.ngrok.io/SignalHub",
+        apiUrl: "https://e477d5836eb2.ngrok.io/api/",
+        authUrl: "https://e477d5836eb2.ngrok.io/api/Auth/",
+        hubUrl: "https://e477d5836eb2.ngrok.io/SignalHub",
         isProduction: true,
     }
     applyLiveSettings();
